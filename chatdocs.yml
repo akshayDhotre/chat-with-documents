@@ -1,0 +1,11 @@
+ctransformers:
+  model: TheBloke/Llama-2-7B-Chat-GGML
+  model_file: llama-2-7b-chat.ggmlv3.q4_0.bin
+  model_type: llama
+  config:
+    context_length: 1024
+
+huggingface:
+  model: TheBloke/Llama-2-7B-Chat-GGML
+  pipeline_kwargs:
+    max_new_tokens: 256
